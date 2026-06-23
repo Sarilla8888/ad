@@ -30,7 +30,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     padding: 20px;
@@ -50,11 +50,12 @@ body{
 
 /* 🔥 CLAVE: elimina posiciones rígidas */
 .buttons{
+    margin-top: auto;
+    padding-bottom: 20px;
     display: flex;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 button{
