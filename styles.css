@@ -15,8 +15,8 @@ body{
 }
 
 .card{
-    width: 925px;
-    height: 489px;
+    width: min(925px, 90vw);
+    aspect-ratio: 925 / 489;
     background-image: url(img/1.png);
     border-radius: 25px;
     box-shadow: 0 15px 35px rgba(0,0,0,.15);
