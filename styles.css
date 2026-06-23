@@ -16,7 +16,8 @@ body{
 
 .card{width: 925px;
      height: 489px;
-    background-image: url(img/1.png);background-size: cover;
+    background-image: url(img/1.png);
+      background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
     border-radius: 25px;
