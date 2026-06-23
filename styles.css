@@ -6,20 +6,25 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #ffffff;
+    overflow-x: hidden;
+    padding: 20px;
 }
 
-.card{width: 925px;
-     height: 489px;
+.card{
+    width: min(925px, 95vw);
+    aspect-ratio: 925 / 489;
+
     background-image: url(img/1.png);
-      background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
     border-radius: 25px;
     box-shadow: 0 15px 35px rgba(0,0,0,.15);
 
@@ -27,6 +32,8 @@ background-position: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 20px;
 }
 
 .card h1{
