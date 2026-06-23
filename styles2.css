@@ -30,10 +30,11 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* 🔥 CLAVE */
+    justify-content: flex-start;
     align-items: center;
 
     padding: 20px;
+    position: relative; /* 🔥 importante */
 }
 
 .card h1{
@@ -63,4 +64,7 @@ button{
 
     background-color: #e28e1c;
     color: white;
+
+    position: absolute;  /* 🔥 clave */
+    bottom: 20px;        /* 👈 lo pega abajo */
 }
