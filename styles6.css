@@ -48,13 +48,15 @@ body{
     text-align: center;
 }
 
-/* BOTÓN */
 button{
-    width: 160px;
-    height: 55px;
+    width: clamp(120px, 18vw, 160px);
+    height: clamp(40px, 6vh, 55px);
+
     border: none;
     border-radius: 10px;
-    font-size: 18px;
+
+    font-size: clamp(14px, 2vw, 18px);
+
     cursor: pointer;
     transition: .25s;
 
