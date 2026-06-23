@@ -15,7 +15,6 @@ body{
     overflow-x: hidden;
     padding: 20px;
 }
-
 .card{
     width: min(925px, 95vw);
     aspect-ratio: 925 / 489;
@@ -37,15 +36,13 @@ body{
 }
 
 .card h1{
-    font-size: clamp(28px, 4vw, 48px);
+    font-size: 48px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .card p{
-    font-size: clamp(16px, 2.5vw, 24px);
-    margin-bottom: 40px;
-    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
 }
 
 .buttons{
@@ -55,20 +52,20 @@ body{
     justify-content: center;
 }
 
-/* ❌ QUITADO margin-top porque rompe responsive */
 button{
+    margin-top: 100px;
     width: 150px;
     height: 55px;
     border: none;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
     transition: .25s;
 }
 
 .yes{
     background: #e28e1c;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .yes:hover{
@@ -77,8 +74,8 @@ button{
 
 .no{
     background: #ffffff;
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 .no:hover{
